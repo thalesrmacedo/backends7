@@ -27,7 +27,7 @@ app.post('/login', (req, res) => {
     } else {
         res.sendStatus(401); // Usuário ou senha inválidos
     }
-});
+}); 
 
 app.listen(3000, () => {
     console.log('Servidor rodando na porta 3000');
