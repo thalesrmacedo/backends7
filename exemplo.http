@@ -1,0 +1,12 @@
+### Rota de Login
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "adminpass"
+}
+
+### Rota de Tarefas Protegidas
+GET http://localhost:3000/tasks
+Authorization: Bearer <seu_token>
